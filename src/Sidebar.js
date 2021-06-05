@@ -56,32 +56,32 @@ class Sidebar extends React.Component {
         <div className="vertical-nav active" id="sidebar">
           <ul className="nav flex-column mb-0" style={{ marginTop: "40px" }}>
             <li className="nav-item">
-              <a href="#" className="nav-link ">
+              <a href="/" className="nav-link ">
                 <i className="fa fa-home"></i> Home
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link ">
+              <a href="/" className="nav-link ">
                 <i className="fa fa-flask"></i> Operational
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link ">
+              <a href="/" className="nav-link ">
                 <i className="fa fa-users"></i> Support Group
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link ">
+              <a href="/" className="nav-link ">
                 <i className="fa fa-file-text-o "></i> General Reports
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link ">
+              <a href="/" className="nav-link ">
                 <i className="fa fa-bullhorn"></i> Announcement
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link ">
+              <a href="/" className="nav-link ">
                 <i
                   className="fa fa-calendar-check-o
 "
@@ -90,32 +90,32 @@ class Sidebar extends React.Component {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link ">
+              <a href="/" className="nav-link ">
                 <i className="fa fa-file"></i> E - Document
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link ">
+              <a href="/" className="nav-link ">
                 <i className="fa fa-info-circle"></i> Informasi Pemeriksaan
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link ">
+              <a href="/" className="nav-link ">
                 <i className="fa fa-table"></i> Meeting Room
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link ">
+              <a href="/" className="nav-link ">
                 <i className="fa fa-file-archive-o"></i> Air Report
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link ">
+              <a href="/" className="nav-link ">
                 <i className="fa fa-database"></i> Data Master
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link ">
+              <a href="/" className="nav-link ">
                 <i className="fa fa-sign-out"></i> Log Out
               </a>
             </li>
@@ -132,13 +132,13 @@ class Sidebar extends React.Component {
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="/">
                   Action
                 </a>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="/">
                   Another action
                 </a>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="/">
                   Something else here
                 </a>
               </div>

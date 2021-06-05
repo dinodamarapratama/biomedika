@@ -16,7 +16,7 @@ class Nav extends React.Component {
     return (
       <div>
         <nav className="navbar navbar-icon-top navbar-expand-lg transparent navbar-inverse navbar-fixed-top">
-          <a className="navbar-brand" href="#"></a>
+          <a className="navbar-brand" href="/"></a>
           <button
             className="navbar-toggler"
             type="button"
@@ -36,18 +36,18 @@ class Nav extends React.Component {
 
             <ul className="navbar-nav ">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-instagram "></i>
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-globe "></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-envelope"></i>
                 </a>
               </li>

@@ -103,7 +103,7 @@ class Login extends Component {
                         </div>
                         <div className="col-6 mx-auto">
                           <a
-                            href="#"
+                            href="/"
                             style={{ fontSize: "12px", float: "right" }}
                           >
                             forgot password

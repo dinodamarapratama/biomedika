@@ -24,7 +24,7 @@ class Nav2 extends React.Component {
             zIndex: 999,
           }}
         >
-          <a className="navbar-brand" style={{ margin: "0px" }} href="#">
+          <a className="navbar-brand" style={{ margin: "0px" }} href="/">
             <img src={logo} alt="Logo" style={{ width: "200px" }} />
           </a>
           <button
@@ -42,42 +42,42 @@ class Nav2 extends React.Component {
             <ul className="navbar-nav mr-auto"></ul>
             <ul className="navbar-nav ">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-arrows-alt "></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-envelope"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-bell"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-flag"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-commenting"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-file"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-user-circle"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-bars"></i>
                 </a>
               </li>
