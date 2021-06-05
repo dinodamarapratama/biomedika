@@ -16,7 +16,7 @@ class Nav extends React.Component {
     return (
       <div>
         <nav className="navbar navbar-icon-top navbar-expand-lg transparent navbar-inverse navbar-fixed-top">
-          <a className="navbar-brand" href="/"></a>
+          {/* <a className="navbar-brand" href="/"></a> */}
           <button
             className="navbar-toggler"
             type="button"

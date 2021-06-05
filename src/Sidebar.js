@@ -145,7 +145,7 @@ class Sidebar extends React.Component {
             </li>
           </ul>
           <div id="sidebarCollapse" type="button" className="rotate">
-            <img src={back} />
+            <img src={back} alt="" />
           </div>
         </div>
         {/* End vertical navbar */}
