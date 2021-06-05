@@ -1,0 +1,131 @@
+#sidebarCollapse {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background: #000;
+  border-radius: 30px;
+  line-height: 44px;
+  text-align: center;
+  text-indent: -4px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+  top: 100px;
+  right: -25px;
+  transition: all 0.5s ease;
+}
+#sidebarCollapse svg,#sidebarCollapse img {
+  height: 20px;
+  width: 20px;
+}
+#sidebarCollapse.rotate {
+  transform: rotate(180deg);
+}
+.separator {
+  margin: 2rem 0;
+  border-bottom: 1px dashed #d9d9d9;
+}
+.text-uppercase {
+  letter-spacing: 0.1em;
+}
+.text-gray {
+  color: #aaa;
+}
+.media-body svg,.media-body img {
+  height: 100px;
+  width: auto;
+}
+.media-body .media-content {
+  color: #fff;
+  font-weight: 100;
+  font-size: 19px;
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+.media-body .media-sub-content {
+  color: #fff;
+  font-weight: 100;
+  font-size: 13px;
+  margin: 0;
+}
+.vertical-nav {
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  /*top: 0;*/
+  left: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+  background-color: rgba(201, 217, 221, 0.8);
+}
+.vertical-nav .profile {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 0 0 20px 20px;
+}
+.vertical-nav .nav .nav-item {
+  /*margin-bottom: 10px;*/
+
+}
+.vertical-nav .nav .nav-item .nav-link {
+  display: block;
+  padding: 0.6rem 1rem;
+  color: #000;
+  font-weight: normal;
+  font-size: 16px;
+  /*word-spacing: 10px;*/
+  background-color: transparent;
+  border-left: 5px solid transparent;
+  border-radius: 5px 0 0 5px;
+}
+.vertical-nav .nav .nav-item .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #000;
+}
+.vertical-nav .nav .nav-item .nav-link img,
+.vertical-nav .nav .nav-item .nav-link svg {
+  height: 18px;
+  width: 18px;
+  margin-top: -4px;
+}
+.vertical-nav .nav .nav-item .nav-link img path,
+.vertical-nav .nav .nav-item .nav-link svg path {
+  fill: #fff;
+}
+.vertical-nav .nav .nav-item.active .nav-link {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #000;
+}
+.page-content {
+  width: calc(100% - 17rem);
+  margin-left: 17rem;
+  transition: all 0.4s;
+}
+/* for toggle behavior */
+#sidebar.active {
+  margin-left: -17rem;
+}
+#content.active {
+  width: 100%;
+  margin: 0;
+}
+.mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -17rem;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  .mobile {
+    display: block;
+  }
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+  #content.active {
+    margin-left: 17rem;
+    width: calc(100% - 17rem);
+  }
+}

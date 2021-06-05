@@ -1,0 +1,16 @@
+.background {
+    background-image: url("images/ok.jpg");
+    background-color:#888;
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.background2 {
+    background-image: url("images/ok2.jpg");
+    background-color:#888;
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
